@@ -39,7 +39,7 @@ while True:
 
 ### Wiring
 
-
+N/A, plug Metro into PC via USB.
 
 ### Reflection
 * learning syntax different from Arduino - I had to get used to writing code differently than I did last year. For example, there are no semicolons at the end of phrases in Circuit Python.
