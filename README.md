@@ -30,8 +30,15 @@ N/A, plug Metro into PC via USB.
 For this assignment, I coded with circuit python on Mu and made the neopixel on my Metro express shift colors.
 
 ### Code
-```python
 
+[Servo Sweep](servo.py)
+```python
+##TLDR
+while True:
+    myServo.angle = 0 ##Sets servo angle
+    time.sleep(1)     ##Waits one second
+    myServo.angle = 180
+    time.sleep(1)
 ```
 ### Evidence
 
