@@ -42,7 +42,8 @@ while True:
 ```
 ### Evidence
 
-
+<img src="Images/ServoGif.gif" alt="ServoGif" width="600" height="400"/>
+Credit: [afriedm49 repo](https://github.com/afriedm49/Circuit_Python_Asher)
 
 ### Wiring
 
