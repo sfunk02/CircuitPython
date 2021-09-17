@@ -46,7 +46,7 @@ while True:
 
 ### Wiring
 
-(img src="Images/servoCircuit.png" alt="ServoCircuit" width="200" height="100")
+<img src="Images/servoCircuit.png" alt="ServoCircuit" width="200" height="100"/>
 
 ### Reflection
 The assignment was relatively straightforward, but the only unintuitive aspect was making sure to add the servo.mpy file from the adafruit_motor folder. This file had to go in the lib folder in the Metro, and the library had to be added at the beginnig of the code. 
