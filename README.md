@@ -44,6 +44,7 @@ while True:
 
 <img src="Images/ServoGif.gif" alt="ServoGif" width="300" height="200"/>
 Credit: 
+
 [afriedm49 repo](https://github.com/afriedm49/Circuit_Python_Asher)
 
 ### Wiring
