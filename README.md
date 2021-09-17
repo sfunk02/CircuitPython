@@ -27,7 +27,7 @@ N/A, plug Metro into PC via USB.
 
 
 ## CircuitPython_Servo
-For this assignment, I coded with circuit python on Mu and made the neopixel on my Metro express shift colors.
+For this assignment, I coded with circuit python on Mu and made a 180 degree servo sweep back and forth.
 
 ### Code
 
@@ -49,3 +49,4 @@ while True:
 
 
 ### Reflection
+The assignment was relatively straightforward, but the only unintuitive aspect was making sure to add the servo.mpy file from the adafruit_motor folder. This file had to go in the lib folder in the Metro, and the library had to be added at the beginnig of the code. 
