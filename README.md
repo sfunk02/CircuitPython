@@ -58,7 +58,7 @@ The assignment was relatively straightforward, but the only unintuitive aspect w
 
 
 ## CircuitPython_Ultrasonic
-For this assignment,
+For this assignment, I used an HCSR04 ultrasonic sensor to detect a distance. The Neopixel on the Metro Express displays a range of colors depending on the distance being detected by the ultrasonic sensor. 
 
 ### Code
 
