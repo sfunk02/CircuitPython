@@ -78,4 +78,4 @@ if sonar.distance >= 5 and sonar.distance < 20:
 ### Wiring
 
 ### Reflection
-
+Don't forget to add the simpleio.mpy file in the lib folder! Also, make sure the IF statements are all formatted correctly.
