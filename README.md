@@ -69,8 +69,8 @@ if sonar.distance >= 5 and sonar.distance < 20:
             blue = simpleio.map_range(sonar.distance, 5, 20, 0, 255) ##Maps the value blue between 0 and 255 and distance 5 to 20cm
             red = simpleio.map_range(sonar.distance, 5, 20, 255, 0)
             r = int(red)
-            b = int(blue)
-            led.fill((r, 0, b))
+            b = int(blue)           ##Changes float output of simpleio map to an integer
+            led.fill((r, 0, b))     ##Inputs the integer as the RGB value in the LED
 ```
 
 ### Evidence
