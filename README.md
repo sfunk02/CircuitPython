@@ -5,6 +5,7 @@
 * [Hello_CircuitPython](#Hello_CircuitPython)
 * [CircuitPython_Servo](#CircuitPython_Servo)
 * [CircuitPython_Ultrasonic](#CircuitPython_Ultrasonic)
+* [CircuitPython_LCD](#CircuitPython_LCD)
 
 
 ## Hello_CircuitPython (ledShift)
@@ -82,7 +83,7 @@ if sonar.distance >= 5 and sonar.distance < 20:
 ### Reflection
 Don't forget to add the simpleio.mpy file in the lib folder! Also, make sure the IF statements are all formatted correctly.
 
-## CircuitPython LCD
+## CircuitPython_LCD
 For this assignment, I 
 
 ### Code
