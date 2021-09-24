@@ -77,6 +77,9 @@ if sonar.distance >= 5 and sonar.distance < 20:
 ### Evidence
 
 <img src="Images/Ultrasonic Gif.gif" alt="UltrasonicGif" width="200" height="350"/>
+Credit: 
+
+[afriedm49 repo](https://github.com/afriedm49/Circuit_Python_Asher)
 
 ### Wiring
 
