@@ -76,7 +76,7 @@ if sonar.distance >= 5 and sonar.distance < 20:
 
 ### Evidence
 
-<img src="Images/Ultrasonic Gif.gif" alt="UltrasonicGif" width="200" height="400"/>
+<img src="Images/Ultrasonic Gif.gif" alt="UltrasonicGif" width="200" height="350"/>
 
 ### Wiring
 
