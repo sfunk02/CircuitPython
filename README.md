@@ -89,11 +89,37 @@ Credit:
 Don't forget to add the simpleio.mpy file in the lib folder! Also, make sure the IF statements are all formatted correctly.
 
 ## CircuitPython_LCD
-For this assignment, I 
+For this assignment, I wired and coded an LCD display and two capacative touch wires. One wire changes the count state to up or down, and the other changes the counter, both of which are displayed on the LCD screen.
 
 ### Code
 
-[
+[LCD](lcd.py)
+```python
+##TLDR
+while True:
+    if touch.value and a == 0 and c == 0:
+        lcd.clear()
+        a += 1
+        lcd.print(str(b))
+        lcd.print("\nUp")
+    elif touch.value and a == 1 and c == 0:
+        lcd.clear()
+        a -= 1
+        lcd.print(str(b))
+        lcd.print("\nDown")
+    c = touch.value
+    if touch2.value and a == 1 and d == 0:
+        lcd.clear()
+        b += 1
+        lcd.print(str(b))
+        lcd.print("\nUp")
+    elif touch2.value and a == 0 and d == 0:
+        lcd.clear()
+        b -= 1
+        lcd.print(str(b))
+        lcd.print("\nDown")
+    d = touch2.value
+```
 
 ### Evidence
 
