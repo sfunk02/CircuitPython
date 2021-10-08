@@ -127,6 +127,7 @@ while True:
 
 ### Wiring
 
+This diagram shows how to wire the LCD screen manually with one wire going to each pin. I used an LCD backpack for this assignment, so I only had four wires (VIN, GND, and the two LCD i2C signal pins, which are on the MetroExpress as well. 
 <img src="Images/lcdCircuit.png" alt="LcdCircuit" width="200" height="100"/>
 
 ### Reflection
