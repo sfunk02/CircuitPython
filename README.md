@@ -127,6 +127,8 @@ while True:
 
 ### Wiring
 
-
+<img src="Images/lcdCircuit.png" alt="LcdCircuit" width="200" height="100"/>
 
 ### Reflection
+
+The most difficult part of this assignment was not getting confused by all the different variables. I had one variable to represent the switch state (up/down), one variable to act as a counter, and two variables (one per wire) to represent whether or not the wires are being touched. The last two variables make it so that if a wire is touched continuously, it will not count multiple times.
