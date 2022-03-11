@@ -136,7 +136,7 @@ The most difficult part of this assignment was not getting confused by all the d
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Classes_Objects_and_Modules (RGB_LED)
+## Classes_Objects_and_Modules
 
 For this assignment, I 
 
