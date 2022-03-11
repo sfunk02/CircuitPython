@@ -6,6 +6,7 @@
 * [CircuitPython_Servo](#CircuitPython_Servo)
 * [CircuitPython_Ultrasonic](#CircuitPython_Ultrasonic)
 * [CircuitPython_LCD](#CircuitPython_LCD)
+* [Classes, Objects, and Modules](#Classes_Objects_and_Modules_(RGB_LED)
 
 
 ## Hello_CircuitPython (ledShift)
@@ -123,8 +124,6 @@ while True:
 
 ### Evidence
 
-
-
 ### Wiring
 
 This diagram shows how to wire the LCD screen manually with one wire going to each pin. I used an LCD backpack for this assignment, so I only had four wires (VIN, GND, and the two LCD i2C signal pins, which are on the MetroExpress as well. 
@@ -134,3 +133,13 @@ This diagram shows how to wire the LCD screen manually with one wire going to ea
 ### Reflection
 
 The most difficult part of this assignment was not getting confused by all the different variables. I had one variable to represent the switch state (up/down), one variable to act as a counter, and two variables (one per wire) to represent whether or not the wires are being touched. The last two variables make it so that if a wire is touched continuously, it will not count multiple times.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Classes_Objects_and_Modules_(RGB_LED)
+For this assignment, I 
+
+### Code
+
+
+### Evidence
