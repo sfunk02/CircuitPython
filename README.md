@@ -138,9 +138,12 @@ The most difficult part of this assignment was not getting confused by all the d
 
 ## Classes_Objects_and_Modules
 
-For this assignment, I 
+For this assignment, I had to make a module with an LED class that would allow me to easily and simply control an RGB LED without having messy code. 
 
 ### Code
 
-
 ### Evidence
+
+### Wiring
+
+### Reflection
