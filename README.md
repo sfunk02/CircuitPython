@@ -6,7 +6,7 @@
 * [CircuitPython_Servo](#CircuitPython_Servo)
 * [CircuitPython_Ultrasonic](#CircuitPython_Ultrasonic)
 * [CircuitPython_LCD](#CircuitPython_LCD)
-* [Classes, Objects, and Modules](#Classes_Objects_and_Modules_(RGB_LED)
+* [Classes, Objects, and Modules](#Classes_Objects_and_Modules
 
 
 ## Hello_CircuitPython (ledShift)
@@ -136,7 +136,7 @@ The most difficult part of this assignment was not getting confused by all the d
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Classes_Objects_and_Modules_(RGB_LED)
+## Classes_Objects_and_Modules (RGB_LED)
 For this assignment, I 
 
 ### Code
