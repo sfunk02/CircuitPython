@@ -9,7 +9,7 @@
 * [Classes_Objects_and_Modules](#Classes_Objects_and_Modules)
 
 
-## Hello_CircuitPython (ledShift)
+## Hello_CircuitPython
 For this assignment, I coded with circuit python on Mu and made the neopixel on my Metro express shift colors.
 
 ### Code
