@@ -182,6 +182,8 @@ while True:
 
 ### Wiring
 
+A photointerrupter was not available in TinkerCAD, so I substituted with an RGB LED because it also has 4 pins. The red wire goes from 5v to + and L on the photointerrupter. The black wire goes from ground to ground. The yellow wire goes from any digital pin on the board to the out pin on the photointerrupter.
+
 <img src="Images/photointerrupterCircuit.png" alt="photointerrupterCircuit" width="400" height="200"/>
 
 ### Reflection
