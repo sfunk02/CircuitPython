@@ -6,6 +6,7 @@
 * [CircuitPython_Servo](#CircuitPython_Servo)
 * [CircuitPython_Ultrasonic](#CircuitPython_Ultrasonic)
 * [CircuitPython_LCD](#CircuitPython_LCD)
+* [CircuitPython_Photointerrupter](#CircuitPython_Photointerrupter)
 * [Classes_Objects_and_Modules](#Classes_Objects_and_Modules)
 
 
@@ -134,7 +135,60 @@ This diagram shows how to wire the LCD screen manually with one wire going to ea
 
 The most difficult part of this assignment was not getting confused by all the different variables. I had one variable to represent the switch state (up/down), one variable to act as a counter, and two variables (one per wire) to represent whether or not the wires are being touched. The last two variables make it so that if a wire is touched continuously, it will not count multiple times.
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## CircuitPython_Photointerrupter
+For this assignment, I wired and coded a photointerrupter to count the number of times it has been interrupted in an interval and display that value in the serial monitor.
+
+### Code
+
+[Photointerrupter](photointerrupter.py)
+```python
+# Code credit to https://github.com/gventre04/CircuitPython
+
+from digitalio import DigitalInOut, Direction, Pull
+import time
+import board
+
+interrupter = DigitalInOut(board.D7)
+interrupter.direction = Direction.INPUT
+interrupter.pull = Pull.UP
+
+counter = 0
+interval = 4        # sets interal between each print in seconds
+
+photo = False
+state = False
+
+max = interval
+start = time.time()
+while True:
+    photo = interrupter.value
+    if photo and not state:
+        counter += 1             # counts each time the photointerrupter is interrupted
+    state = photo
+
+    remaining = max - time.time()
+
+    if remaining <= 0:
+        print("Interrupts:", str(counter))  # prints counter value
+        max = time.time() + interval
+        counter = 0
+```
+
+### Evidence
+
+<img src="Images/photoInterrupterEvidence" alt="PhotointerrupterScreenshot" width="200" height="350"/>
+
+### Wiring
+
+<img src="Images/photointerrupterCircuit.png" alt="photointerrupterCircuit" width="400" height="200"/>
+
+### Reflection
+
+This assignment was relatively straightforward. I was able to find code for the photointerrupter, which made it much easier to learn how it works, since it is not something I was previously familiar with. The wiring was the easiest part, as there are only three wires. 
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Classes_Objects_and_Modules
 
