@@ -178,7 +178,7 @@ while True:
 
 ### Evidence
 
-<img src="Images/photoInterrupterEvidence" alt="PhotointerrupterScreenshot" width="200" height="350"/>
+<img src="Images/photoInterrupterEvidence.png" alt="PhotointerrupterScreenshot" width="200" height="350"/>
 
 ### Wiring
 
