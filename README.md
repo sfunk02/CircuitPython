@@ -142,7 +142,7 @@ For this assignment, I wired and coded a photointerrupter to count the number of
 
 ### Code
 
-[Photointerrupter](photointerrupter.py)
+[Photointerrupter](photointerruper.py)
 ```python
 # Code credit to https://github.com/gventre04/CircuitPython
 
