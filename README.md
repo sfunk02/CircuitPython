@@ -205,4 +205,8 @@ For this assignment, I had to make a module with an LED class that would allow m
 
 ### Wiring
 
+<img src="Images/2rgbLED.png" alt="rgbLEDs" width="400" height="200"/>
+
 ### Reflection
+
+The most complex part of this assignment was figuring out how to make the LEDs do a rainbow fade. The only way I could figure out how to do it left the code in my RGB module kind of messy and comlicated, but the main code was still very clean.
